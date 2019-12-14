@@ -31,7 +31,7 @@ import zdoctor.skilltree.proxy.CommonProxy;
  *
  */
 public abstract class SkillBase {
-	protected static HashMap<ResourceLocation, SkillBase> Skill_Registry = new HashMap();
+	protected static HashMap<ResourceLocation, SkillBase> Skill_Registry = new HashMap<>();
 
 	private static int nextId;
 

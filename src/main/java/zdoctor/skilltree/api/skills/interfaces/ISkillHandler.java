@@ -12,7 +12,7 @@ import zdoctor.skilltree.skills.SkillSlot;
 
 public interface ISkillHandler extends INBTSerializable<NBTTagCompound> {
 	
-	public static enum ChangeType {
+	enum ChangeType {
 		SKILL_ACTIVATED,
 		SKILL_DEACTIVATED,
 		SKILL_BOUGHT,

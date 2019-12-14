@@ -6,4 +6,6 @@ build
 .settings
 .vs
 /Example
-
+*.xml
+*.iml
+/run
